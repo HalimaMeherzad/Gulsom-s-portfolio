@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#FFD166"/>
+  <g>
+    <rect x="300" y="40" width="200" height="520" rx="36" fill="#34344A"/>
+    <rect x="312" y="52" width="176" height="496" rx="26" fill="#FFF8E8"/>
+    <rect x="368" y="62" width="64" height="10" rx="5" fill="#34344A"/>
+    <text x="400" y="130" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="34" fill="#34344A">Aura</text>
+    <rect x="330" y="160" width="140" height="140" rx="18" fill="#FF6B6B"/>
+    <circle cx="400" cy="230" r="34" fill="#FFF8E8"/>
+    <rect x="330" y="316" width="140" height="60" rx="14" fill="#06B6A0"/>
+    <rect x="345" y="334" width="70" height="10" rx="5" fill="#FFF8E8"/>
+    <rect x="345" y="352" width="100" height="8" rx="4" fill="#FFF8E8" opacity="0.7"/>
+    <rect x="330" y="392" width="66" height="66" rx="14" fill="#FFD166"/>
+    <rect x="404" y="392" width="66" height="66" rx="14" fill="#34344A"/>
+    <circle cx="363" cy="425" r="16" fill="#FFF8E8"/>
+    <text x="437" y="432" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#FFF8E8">♥</text>
+    <rect x="330" y="474" width="140" height="26" rx="13" fill="#FBEFDC"/>
+  </g>
+  <circle cx="120" cy="140" r="46" fill="#FF6B6B"/>
+  <circle cx="690" cy="470" r="60" fill="#06B6A0"/>
+  <text x="120" y="520" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="6" fill="#34344A">SOCIAL UI</text>
+  <text x="560" y="90" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="6" fill="#34344A">CAMPAIGN KIT</text>
+</svg>

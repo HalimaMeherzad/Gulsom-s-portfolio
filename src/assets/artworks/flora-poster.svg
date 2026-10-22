@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#FF6B6B"/>
+  <circle cx="400" cy="330" r="190" fill="#FFD166"/>
+  <g fill="#FFF8E8">
+    <ellipse cx="400" cy="120" rx="42" ry="86"/>
+    <ellipse cx="400" cy="540" rx="42" ry="86"/>
+    <ellipse cx="190" cy="330" rx="86" ry="42"/>
+    <ellipse cx="610" cy="330" rx="86" ry="42"/>
+  </g>
+  <g fill="#F04E58">
+    <ellipse cx="252" cy="182" rx="40" ry="80" transform="rotate(-45 252 182)"/>
+    <ellipse cx="548" cy="182" rx="40" ry="80" transform="rotate(45 548 182)"/>
+    <ellipse cx="252" cy="478" rx="40" ry="80" transform="rotate(45 252 478)"/>
+    <ellipse cx="548" cy="478" rx="40" ry="80" transform="rotate(-45 548 478)"/>
+  </g>
+  <circle cx="400" cy="330" r="70" fill="#06B6A0"/>
+  <path d="M400 560v220" stroke="#06B6A0" stroke-width="14" stroke-linecap="round"/>
+  <path d="M400 700c-70 0-110-40-110-110 70 0 110 40 110 110z" fill="#FFF8E8"/>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="150" letter-spacing="18" fill="#FFF8E8">FLORA</text>
+  <text x="400" y="940" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" letter-spacing="10" fill="#34344A">BLOOM FESTIVAL — POSTER</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#FFF8E8"/>
+  <circle cx="400" cy="360" r="170" fill="#FFD166"/>
+  <g stroke="#FF6B6B" stroke-width="12" stroke-linecap="round">
+    <line x1="400" y1="110" x2="400" y2="40"/>
+    <line x1="400" y1="610" x2="400" y2="680"/>
+    <line x1="150" y1="360" x2="80" y2="360"/>
+    <line x1="650" y1="360" x2="720" y2="360"/>
+    <line x1="222" y1="182" x2="172" y2="132"/>
+    <line x1="578" y1="182" x2="628" y2="132"/>
+    <line x1="222" y1="538" x2="172" y2="588"/>
+    <line x1="578" y1="538" x2="628" y2="588"/>
+  </g>
+  <text x="400" y="390" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="84" letter-spacing="12" fill="#34344A">SOLEIL</text>
+  <g>
+    <rect x="180" y="740" width="220" height="130" rx="16" fill="#FF6B6B" transform="rotate(-6 290 805)"/>
+    <text x="290" y="815" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="36" fill="#FFF8E8" transform="rotate(-6 290 805)">s. studio</text>
+    <rect x="410" y="750" width="220" height="130" rx="16" fill="#06B6A0" transform="rotate(5 520 815)"/>
+    <circle cx="520" cy="800" r="26" fill="#FFD166" transform="rotate(5 520 815)"/>
+    <text x="520" y="855" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="4" fill="#FFF8E8" transform="rotate(5 520 815)">VISUAL IDENTITY</text>
+  </g>
+</svg>

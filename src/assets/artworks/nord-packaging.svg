@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#06B6A0"/>
+  <circle cx="650" cy="150" r="110" fill="#FFD166"/>
+  <g>
+    <path d="M230 340h340v460a30 30 0 0 1-30 30H260a30 30 0 0 1-30-30z" fill="#FFF8E8"/>
+    <path d="M230 340l70-110h200l70 110z" fill="#FBEFDC"/>
+    <rect x="380" y="215" width="40" height="60" rx="8" fill="#F04E58"/>
+    <text x="400" y="500" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="72" letter-spacing="10" fill="#34344A">NORD</text>
+    <text x="400" y="545" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" letter-spacing="8" fill="#5C5C73">OAT DRINK</text>
+    <path d="M300 660l60-90 45 65 35-45 60 90z" fill="#06B6A0"/>
+    <circle cx="330" cy="605" r="14" fill="#FF6B6B"/>
+  </g>
+  <path d="M120 900c0-60 40-100 100-100" stroke="#FFF8E8" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <text x="400" y="920" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" letter-spacing="12" fill="#FFF8E8">PACKAGING SYSTEM</text>
+</svg>

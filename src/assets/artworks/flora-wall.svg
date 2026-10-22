@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#FBEFDC"/>
+  <g>
+    <rect x="120" y="60" width="240" height="340" rx="8" fill="#FF6B6B"/>
+    <circle cx="240" cy="200" r="70" fill="#FFD166"/>
+    <circle cx="240" cy="200" r="26" fill="#06B6A0"/>
+    <text x="240" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="44" letter-spacing="8" fill="#FFF8E8">FLORA</text>
+    <rect x="420" y="120" width="240" height="340" rx="8" fill="#FFF8E8" stroke="#34344A" stroke-width="3"/>
+    <g stroke="#06B6A0" stroke-width="6" fill="none">
+      <path d="M540 380V250"/>
+      <path d="M540 250c-40-10-60-40-60-80 40 10 60 40 60 80z"/>
+      <path d="M540 290c40-10 60-40 60-80-40 10-60 40-60 80z"/>
+    </g>
+    <text x="540" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#34344A">bloom</text>
+  </g>
+  <ellipse cx="240" cy="415" rx="110" ry="10" fill="#34344A" opacity="0.12"/>
+  <ellipse cx="540" cy="475" rx="110" ry="10" fill="#34344A" opacity="0.12"/>
+  <text x="400" y="560" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="10" fill="#5C5C73">POSTER SERIES — GALLERY WALL</text>
+</svg>

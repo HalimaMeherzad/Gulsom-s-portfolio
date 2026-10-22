@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------------------------------------ */
+/* Design tokens — Gulsom Meherzad portfolio                           */
+/* Warm cream canvas, deep navy ink, coral / sunny / teal accents      */
+/* ------------------------------------------------------------------ */
+:root {
+  --cream: #fff8e8;
+  --cream-deep: #fbefdc;
+  --coral: #ff6b6b;
+  --coral-deep: #f04e58;
+  --sunny: #ffd166;
+  --teal: #06b6a0;
+  --ink: #34344a;
+  --ink-soft: #5c5c73;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream font-sans text-ink antialiased;
+    /* subtle paper grain so large cream areas never feel flat */
+    background-image: radial-gradient(rgb(52 52 74 / 0.035) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  ::selection {
+    @apply bg-sunny text-ink;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-teal ring-offset-2 ring-offset-cream;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  /* editorial eyebrow label */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.28em] text-ink-soft;
+  }
+
+  /* hand-written accent used over hero / about visuals */
+  .script-accent {
+    @apply font-script text-3xl leading-none text-ink md:text-4xl;
+  }
+
+  /* animated underline for nav links */
+  .nav-link {
+    @apply relative text-sm font-semibold text-ink/80 transition-colors hover:text-ink;
+  }
+  .nav-link::after {
+    content: "";
+    @apply absolute -bottom-1.5 left-0 h-0.5 w-full origin-left scale-x-0 rounded-full bg-coral transition-transform duration-300;
+  }
+  .nav-link:hover::after,
+  .nav-link[aria-current="page"]::after {
+    @apply scale-x-100;
+  }
+  .nav-link[aria-current="page"] {
+    @apply text-ink;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Global reduced-motion safety net — component level fallbacks live   */
+/* inside each animated component; this guards the rest of the page.   */
+/* ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

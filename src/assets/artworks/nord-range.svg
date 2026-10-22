@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#34344A"/>
+  <circle cx="700" cy="80" r="60" fill="#FFD166"/>
+  <g>
+    <path d="M120 200h150v260a16 16 0 0 1-16 16H136a16 16 0 0 1-16-16z" fill="#FFF8E8"/>
+    <path d="M120 200l30-60h90l30 60z" fill="#06B6A0"/>
+    <text x="195" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="30" letter-spacing="4" fill="#34344A">NORD</text>
+    <text x="195" y="360" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#5C5C73">BARISTA</text>
+    <path d="M300 220h150v240a16 16 0 0 1-16 16h-118a16 16 0 0 1-16-16z" fill="#06B6A0"/>
+    <path d="M300 220l30-60h90l30 60z" fill="#FFF8E8"/>
+    <text x="375" y="345" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="30" letter-spacing="4" fill="#FFF8E8">NORD</text>
+    <text x="375" y="375" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#FFF8E8">OAT</text>
+    <path d="M480 200h150v260a16 16 0 0 1-16 16H496a16 16 0 0 1-16-16z" fill="#FF6B6B"/>
+    <path d="M480 200l30-60h90l30 60z" fill="#FFF8E8"/>
+    <text x="555" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="30" letter-spacing="4" fill="#FFF8E8">NORD</text>
+    <text x="555" y="360" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="4" fill="#FFF8E8">PROTEIN</text>
+  </g>
+  <line x1="80" y1="480" x2="720" y2="480" stroke="#FFF8E8" stroke-width="3" opacity="0.3"/>
+  <text x="400" y="550" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="10" fill="#FFF8E8">PACKAGING RANGE — CARTON SYSTEM</text>
+</svg>

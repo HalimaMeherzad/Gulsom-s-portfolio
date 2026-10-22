@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#FFD166"/>
+  <rect x="60" y="60" width="680" height="880" rx="48" fill="#FFF8E8"/>
+  <text x="120" y="160" font-family="Georgia, serif" font-style="italic" font-size="72" fill="#34344A">Aura</text>
+  <text x="120" y="205" font-family="Helvetica, Arial, sans-serif" font-size="20" letter-spacing="6" fill="#5C5C73">SOCIAL CAMPAIGN</text>
+  <g>
+    <rect x="120" y="250" width="170" height="170" rx="24" fill="#FF6B6B"/>
+    <circle cx="205" cy="335" r="46" fill="#FFF8E8"/>
+    <rect x="315" y="250" width="170" height="170" rx="24" fill="#06B6A0"/>
+    <path d="M345 390c20-70 55-100 110-110" stroke="#FFF8E8" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <rect x="510" y="250" width="170" height="170" rx="24" fill="#34344A"/>
+    <text x="595" y="355" text-anchor="middle" font-family="Georgia, serif" font-size="64" fill="#FFD166">a</text>
+    <rect x="120" y="445" width="170" height="170" rx="24" fill="#34344A"/>
+    <text x="205" y="550" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" letter-spacing="2" fill="#FFF8E8">#aura</text>
+    <rect x="315" y="445" width="170" height="170" rx="24" fill="#FFF8E8" stroke="#34344A" stroke-width="4"/>
+    <circle cx="370" cy="500" r="24" fill="#FFD166"/>
+    <circle cx="430" cy="560" r="34" fill="#FF6B6B"/>
+    <rect x="510" y="445" width="170" height="170" rx="24" fill="#FF6B6B"/>
+    <path d="M540 570l50-70 40 50 25-30 25 50z" fill="#FFF8E8"/>
+    <rect x="120" y="640" width="365" height="170" rx="24" fill="#06B6A0"/>
+    <text x="302" y="740" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="46" fill="#FFF8E8">feel the glow</text>
+    <rect x="510" y="640" width="170" height="170" rx="24" fill="#FFD166"/>
+    <circle cx="595" cy="700" r="28" fill="#34344A"/>
+    <rect x="560" y="745" width="70" height="14" rx="7" fill="#34344A"/>
+  </g>
+</svg>

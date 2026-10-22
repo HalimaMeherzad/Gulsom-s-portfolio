@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#34344A"/>
+  <circle cx="580" cy="220" r="90" fill="#FFD166"/>
+  <circle cx="545" cy="200" r="90" fill="#34344A"/>
+  <line x1="100" y1="330" x2="700" y2="330" stroke="#FFF8E8" stroke-width="2"/>
+  <text x="400" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="96" letter-spacing="16" fill="#FFF8E8">LUMIÈRE</text>
+  <line x1="100" y1="540" x2="700" y2="540" stroke="#FFF8E8" stroke-width="2"/>
+  <text x="400" y="590" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" letter-spacing="12" fill="#FF6B6B">REVUE D'ART &amp; DESIGN — ISSUE 07</text>
+  <g stroke="#FFF8E8" stroke-width="6" fill="none" opacity="0.5">
+    <path d="M120 680h240M120 720h240M120 760h180"/>
+    <path d="M440 680h240M440 720h240M440 760h180"/>
+  </g>
+  <text x="400" y="900" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="40" fill="#06B6A0">the craft of light</text>
+</svg>

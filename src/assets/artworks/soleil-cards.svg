@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#FFF8E8"/>
+  <circle cx="680" cy="100" r="70" fill="#FFD166"/>
+  <g>
+    <rect x="100" y="140" width="280" height="170" rx="16" fill="#34344A" transform="rotate(-5 240 225)"/>
+    <circle cx="150" cy="190" r="22" fill="#FFD166" transform="rotate(-5 240 225)"/>
+    <text x="240" y="245" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="34" letter-spacing="6" fill="#FFF8E8" transform="rotate(-5 240 225)">SOLEIL</text>
+    <text x="240" y="278" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4" fill="#FF6B6B" transform="rotate(-5 240 225)">CREATIVE STUDIO</text>
+    <rect x="380" y="230" width="300" height="190" rx="16" fill="#FF6B6B" transform="rotate(6 530 325)"/>
+    <text x="530" y="305" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="40" fill="#FFF8E8" transform="rotate(6 530 325)">hello@soleil.studio</text>
+    <text x="530" y="355" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3" fill="#FFF8E8" transform="rotate(6 530 325)">+00 000 00 00</text>
+  </g>
+  <rect x="120" y="420" width="560" height="6" rx="3" fill="#06B6A0"/>
+  <text x="400" y="530" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="10" fill="#5C5C73">STATIONERY — BUSINESS CARDS</text>
+</svg>

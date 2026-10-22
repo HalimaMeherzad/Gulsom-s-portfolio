@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#FF6B6B"/>
+  <circle cx="90" cy="90" r="60" fill="#FFD166"/>
+  <g>
+    <path d="M280 180h240l24 320a20 20 0 0 1-20 22H276a20 20 0 0 1-20-22z" fill="#FFF8E8"/>
+    <path d="M300 180c0-35 45-60 100-60s100 25 100 60" fill="none" stroke="#FBEFDC" stroke-width="14"/>
+    <text x="400" y="340" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="64" fill="#34344A">blume</text>
+    <text x="400" y="390" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="8" fill="#5C5C73">SKINCARE</text>
+    <path d="M350 440c25-25 75-25 100 0" stroke="#06B6A0" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+  <g stroke="#FFF8E8" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M620 480c0-70 45-120 120-135"/>
+    <path d="M650 430c35-8 60-35 68-70"/>
+  </g>
+  <text x="400" y="565" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" letter-spacing="10" fill="#FFF8E8">BRAND APPLICATION — CARRIER BAG</text>
+</svg>

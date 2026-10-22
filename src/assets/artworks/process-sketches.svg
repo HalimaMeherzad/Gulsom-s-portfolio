@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#FBEFDC"/>
+  <g stroke="#34344A" stroke-width="3" fill="none" opacity="0.85">
+    <rect x="60" y="60" width="200" height="220" rx="8" fill="#FFF8E8"/>
+    <circle cx="160" cy="150" r="46"/>
+    <path d="M110 230c20-30 80-30 100 0"/>
+    <rect x="300" y="60" width="200" height="220" rx="8" fill="#FFF8E8"/>
+    <path d="M340 230V120l60-40 60 40v110"/>
+    <path d="M370 230v-60h60v60"/>
+    <rect x="540" y="60" width="200" height="220" rx="8" fill="#FFF8E8"/>
+    <path d="M580 200c30-90 90-90 120-120M600 210c40-20 80-60 100-110"/>
+    <circle cx="620" cy="130" r="18"/>
+  </g>
+  <g stroke="#FF6B6B" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M100 420c60-60 120-60 180 0"/>
+    <path d="M340 400l40 40 80-80" />
+  </g>
+  <text x="560" y="440" font-family="Caveat, cursive" font-size="44" fill="#06B6A0">sketch → system</text>
+  <g>
+    <rect x="60" y="500" width="680" height="14" rx="7" fill="#FFD166"/>
+    <circle cx="740" cy="507" r="14" fill="#34344A"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#FBEFDC"/>
+  <g>
+    <rect x="80" y="90" width="320" height="420" fill="#34344A"/>
+    <circle cx="240" cy="220" r="70" fill="#FFD166"/>
+    <text x="240" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="36" letter-spacing="8" fill="#FFF8E8">LUMIÈRE</text>
+    <text x="240" y="400" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="6" fill="#FF6B6B">ISSUE 07</text>
+    <rect x="400" y="90" width="320" height="420" fill="#FFF8E8"/>
+    <text x="430" y="160" font-family="Georgia, serif" font-style="italic" font-size="34" fill="#34344A">The craft of light</text>
+    <g stroke="#5C5C73" stroke-width="4" opacity="0.5">
+      <line x1="430" y1="210" x2="690" y2="210"/><line x1="430" y1="240" x2="690" y2="240"/>
+      <line x1="430" y1="270" x2="660" y2="270"/><line x1="430" y1="300" x2="690" y2="300"/>
+      <line x1="430" y1="330" x2="620" y2="330"/>
+    </g>
+    <rect x="430" y="370" width="260" height="110" rx="8" fill="#06B6A0"/>
+    <text x="560" y="435" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" letter-spacing="6" fill="#FFF8E8">EDITORIAL SPREAD</text>
+  </g>
+  <ellipse cx="400" cy="530" rx="320" ry="12" fill="#34344A" opacity="0.12"/>
+</svg>
