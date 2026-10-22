@@ -11,6 +11,7 @@ import {
   projects,
 } from "@/data/projects";
 import { cn } from "@/lib/utils";
+import { thumbFor } from "@/lib/images";
 import React from "react";
 
 export default function Projects() {
@@ -25,7 +26,7 @@ export default function Projects() {
       {/* Immersive 3D image-stream corridor hero */}
       <div className="relative">
         <ImageStreamHero
-          images={projectStreamImages}
+          images={projectStreamImages.map(thumbFor)}
           cards={5}
           speed={1}
           axis="x"

@@ -4,6 +4,7 @@ import { useReducedMotion } from "framer-motion";
 import { ArrowBadge } from "@/components/ui/decorations";
 import { Badge } from "@/components/ui/badge";
 import { ImagePreview } from "@/components/ui/image-preview";
+import { thumbFor } from "@/lib/images";
 import { cn } from "@/lib/utils";
 
 /**
@@ -14,7 +15,7 @@ import { cn } from "@/lib/utils";
  *   hit-area opens them full-screen; navigation stays on the title row.
  *   Left off, the card renders exactly as before.
  */
-export function ProjectCard({
+export const ProjectCard = React.memo(function ProjectCard({
   project,
   className,
   size = "normal",
@@ -46,7 +47,7 @@ export function ProjectCard({
       )}
     >
       <img
-        src={imageSrc}
+        src={thumbFor(imageSrc)}
         alt={imageAlt}
         loading="lazy"
         decoding="async"
@@ -117,4 +118,4 @@ export function ProjectCard({
       />
     </>
   );
-}
+});

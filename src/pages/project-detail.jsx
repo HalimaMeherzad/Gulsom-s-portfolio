@@ -7,6 +7,7 @@ import { ArrowBadge, Blob, LeafAccent, Squiggle } from "@/components/ui/decorati
 import { ImagePreview } from "@/components/ui/image-preview";
 import { Reveal, RevealGroup, RevealItem } from "@/components/ui/reveal";
 import { getAdjacentProjects, getProjectBySlug } from "@/data/projects";
+import { thumbFor } from "@/lib/images";
 import NotFound from "@/pages/not-found";
 import { cn } from "@/lib/utils";
 
@@ -50,6 +51,8 @@ export default function ProjectDetail() {
               <img
                 src={project.heroImage}
                 alt={project.heroAlt}
+                fetchpriority="high"
+                decoding="async"
                 className="aspect-[16/9] w-full object-cover md:aspect-[2.2/1]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-ink/20 via-transparent to-transparent" />
@@ -199,7 +202,7 @@ export default function ProjectDetail() {
                 )}
               >
                 <img
-                  src={item.src}
+                  src={thumbFor(item.src)}
                   alt={item.alt}
                   loading="lazy"
                   decoding="async"

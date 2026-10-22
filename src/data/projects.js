@@ -530,25 +530,19 @@ export const projects = [
   
 ];
 
+/* Unique gallery image sources for the Projects stream hero.
+ * Deduped so the same poster isn't fetched twice; consumers should pass
+ * these through thumbFor() (src/lib/images.js) to use WebP thumbnails. */
 export const projectStreamImages = [
-  ...projects.flatMap((p) => (p.gallery ?? []).map((image) => image.src)),
-  rayyanPackaging,
-  cocaPoster,
-  drinkPoster,
-  pizzaposter,
-  dogIllustration,
-  forestIllustration,
-
-  // floraWall,
-  // auraPhone,
-  // nordRange,
-  // lumiereSpread,
-  // soleilCards,
-  // processSketches,
-  // unsplash.shapes,
-  // unsplash.perfumePink,
-  // unsplash.galleryWall,
-
+  ...new Set([
+    ...projects.flatMap((p) => (p.gallery ?? []).map((image) => image.src)),
+    rayyanPackaging,
+    cocaPoster,
+    drinkPoster,
+    pizzaposter,
+    dogIllustration,
+    forestIllustration,
+  ]),
 ];
 
 export const projectCategories = [
